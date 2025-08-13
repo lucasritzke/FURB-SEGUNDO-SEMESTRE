@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class App {
 	public static void main(String[] args) {
 		p pessoa = new p();
+		
 		Scanner ler = new Scanner (System.in);
 		System.out.println("Qual sua altura");
 		pessoa.altura = ler.nextDouble();
